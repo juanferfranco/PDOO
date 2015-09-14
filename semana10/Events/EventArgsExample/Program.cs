@@ -48,13 +48,11 @@ namespace EventArgsExample
 
 		protected virtual void OnThresholdReached(ThresholdReachedEventArgs e)
 		{
-			/*
-			EventHandler<ThresholdReachedEventArgs> handler = ThresholdReached;
-			if (handler != null)
+
+			if (ThresholdReached != null)
 			{
-				handler(this, e);
-			}*/
-			ThresholdReached (this, e);
+				ThresholdReached(this, e);
+			}
 
 		}
 
