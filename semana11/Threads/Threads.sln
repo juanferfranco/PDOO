@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleExample", "SimpleExample\SimpleExample.csproj", "{5C13A925-DEB3-4E27-A9A1-25E4D084A278}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadParametersExample", "ThreadParametersExample\ThreadParametersExample.csproj", "{D68491BB-CCE6-4291-8B9A-AD08FB654315}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadParametersExample2", "ThreadParametersExample2\ThreadParametersExample2.csproj", "{415C98EA-C4D3-49F0-913B-0014E1A05E63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{415C98EA-C4D3-49F0-913B-0014E1A05E63}.Debug|x86.ActiveCfg = Debug|x86
+		{415C98EA-C4D3-49F0-913B-0014E1A05E63}.Debug|x86.Build.0 = Debug|x86
+		{415C98EA-C4D3-49F0-913B-0014E1A05E63}.Release|x86.ActiveCfg = Release|x86
+		{415C98EA-C4D3-49F0-913B-0014E1A05E63}.Release|x86.Build.0 = Release|x86
+		{5C13A925-DEB3-4E27-A9A1-25E4D084A278}.Debug|x86.ActiveCfg = Debug|x86
+		{5C13A925-DEB3-4E27-A9A1-25E4D084A278}.Debug|x86.Build.0 = Debug|x86
+		{5C13A925-DEB3-4E27-A9A1-25E4D084A278}.Release|x86.ActiveCfg = Release|x86
+		{5C13A925-DEB3-4E27-A9A1-25E4D084A278}.Release|x86.Build.0 = Release|x86
+		{D68491BB-CCE6-4291-8B9A-AD08FB654315}.Debug|x86.ActiveCfg = Debug|x86
+		{D68491BB-CCE6-4291-8B9A-AD08FB654315}.Debug|x86.Build.0 = Debug|x86
+		{D68491BB-CCE6-4291-8B9A-AD08FB654315}.Release|x86.ActiveCfg = Release|x86
+		{D68491BB-CCE6-4291-8B9A-AD08FB654315}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal
