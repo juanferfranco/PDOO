@@ -12,8 +12,8 @@ namespace RickMultipleGuitars
 		}
 
 		public void addGuitar(string serialNumber, double price,
-			string builder, string model,
-			string type, string backWood, string topWood) {
+			Builder builder, string model,
+			Typeg type, Wood backWood, Wood topWood) {
 
 			Guitar guitar = new Guitar(serialNumber, price, builder,
 				model, type, backWood, topWood);
@@ -29,20 +29,20 @@ namespace RickMultipleGuitars
 			return null;
 		}
 
-		public Guitar search(Guitar searchGuitar) {
+		public List<Guitar> search(Guitar searchGuitar) {
 
+			List<Guitar> matchingGuitars = new List<Guitar>();
 			foreach (Guitar guitar in guitars) {
 				// Ignore serial number since that's unique
 				// Ignore price since that's unique
-
 				string builder = searchGuitar.Builder;
 				if ((builder != null) && (!builder.Equals("")) &&
 					(!builder.Equals(guitar.Builder)))
 					continue;
 				
-				string model = searchGuitar.Model;
+				string model = searchGuitar.Model.ToLower();
 				if ((model != null) && (!model.Equals("")) &&
-					(!model.Equals(guitar.Model)))
+					(!model.Equals(guitar.Model.ToLower())))
 					continue;
 				
 				string type = searchGuitar.Typeg;
@@ -60,9 +60,9 @@ namespace RickMultipleGuitars
 					(!topWood.Equals(guitar.TopWood)))
 					continue;
 
-				return guitar;
+				matchingGuitars.Add (guitar);
 			}
-			return null;
+			return matchingGuitars;
 		}
 	}
 }

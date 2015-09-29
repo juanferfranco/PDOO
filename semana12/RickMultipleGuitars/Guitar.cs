@@ -7,16 +7,16 @@ namespace RickMultipleGuitars
 		private String serialNumber, builder, model, type, backWood, topWood;
 		private double price;
 
-		public Guitar(String serialNumber, double price,
-			String builder, String model, String type,
-			String backWood, String topWood) {
+		public Guitar(string serialNumber, double price,
+			Builder builder, string model, Typeg type,
+			Wood backWood, Wood topWood) {
 			this.serialNumber = serialNumber;
 			this.price = price;
-			this.builder = builder;
+			this.builder = builder.ToString();
 			this.model = model;
-			this.type = type;
-			this.backWood = backWood;
-			this.topWood = topWood;
+			this.type = type.ToString();
+			this.backWood = backWood.ToString();
+			this.topWood = topWood.ToString();
 		}
 
 		public string SerialNumber{

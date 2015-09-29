@@ -4,12 +4,12 @@ namespace RickAppVersion1
 {
 	public class Guitar
 	{
-		private String serialNumber, builder, model, type, backWood, topWood;
+		private string serialNumber, builder, model, type, backWood, topWood;
 		private double price;
 
-		public Guitar(String serialNumber, double price,
-			String builder, String model, String type,
-			String backWood, String topWood) {
+		public Guitar(string serialNumber, double price,
+			string builder, string model, string type,
+			string backWood, string topWood) {
 			this.serialNumber = serialNumber;
 			this.price = price;
 			this.builder = builder;
