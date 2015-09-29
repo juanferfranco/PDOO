@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace RickMultipleGuitars
+namespace RickAppEncapsulation
 {
 	class MainClass
 	{
@@ -10,7 +10,7 @@ namespace RickMultipleGuitars
 			Inventory inventory = new Inventory();
 			initializeInventory(inventory);
 
-			Guitar whatErinLikes = new Guitar("", 0, Builder.FENDER, "Stratocastor", 
+			GuitarSpec whatErinLikes = new GuitarSpec(Builder.FENDER, "Stratocastor", 
 				Typeg.ELECTRIC, Wood.ALDER, Wood.ALDER);
 			
 			List<Guitar> guitars = inventory.search(whatErinLikes);
@@ -18,11 +18,13 @@ namespace RickMultipleGuitars
 			if (guitars.Count != 0) {
 				Console.WriteLine ("Erin, you might like these guitars:");
 				foreach (Guitar guitar in guitars) {
+					GuitarSpec guitarSpec = guitar.Spec;
+
 					Console.WriteLine("  We have a " +
-						guitar.Builder + " " + guitar.Model + " " +
-						guitar.Typeg + " guitar:\n     " +
-						guitar.BackWood + " back and sides,\n     " +
-						guitar.TopWood + " top.\n  You can have it for only $" +
+						guitarSpec.Builder + " " + guitarSpec.Model + " " +
+						guitarSpec.Typeg + " guitar:\n     " +
+						guitarSpec.BackWood + " back and sides,\n     " +
+						guitarSpec.TopWood + " top.\n  You can have it for only $" +
 						guitar.Price + "!\n  ----");
 				}
 			} else {

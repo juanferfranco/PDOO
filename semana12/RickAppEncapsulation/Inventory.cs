@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace RickMultipleGuitars
+namespace RickAppEncapsulation
 {
 	public class Inventory
 	{
@@ -29,31 +29,28 @@ namespace RickMultipleGuitars
 			return null;
 		}
 
-		public List<Guitar> search(Guitar searchGuitar) {
+		public List<Guitar> search(GuitarSpec searchSpec) {
 
 			List<Guitar> matchingGuitars = new List<Guitar>();
+
 			foreach (Guitar guitar in guitars) {
-				// Ignore serial number since that's unique
-				// Ignore price since that's unique
-				string builder = searchGuitar.Builder;
-				if (!builder.Equals(guitar.Builder))
+				GuitarSpec guitarSpec = guitar.Spec;
+
+				if (!guitarSpec.Builder.Equals(searchSpec.Builder))
 					continue;
 				
-				string model = searchGuitar.Model.ToLower();
+				string model = searchSpec.Model.ToLower();
 				if ((model != null) && (!model.Equals("")) &&
-					(!model.Equals(guitar.Model.ToLower())))
-					continue;
-				
-				string type = searchGuitar.Typeg;
-				if (!type.Equals(guitar.Typeg))
+					(!model.Equals(guitarSpec.Model.ToLower())))
 					continue;
 
-				string backWood = searchGuitar.BackWood;
-				if (!backWood.Equals(guitar.BackWood))
+				if (!guitarSpec.Typeg.Equals(searchSpec.Typeg))
 					continue;
 
-				string topWood = searchGuitar.TopWood;
-				if (!topWood.Equals(guitar.TopWood))
+				if (!guitarSpec.BackWood.Equals(searchSpec.BackWood))
+					continue;
+
+				if (!guitarSpec.TopWood.Equals(searchSpec.TopWood))
 					continue;
 
 				matchingGuitars.Add (guitar);
