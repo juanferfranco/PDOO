@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstrumentAppV1", "InstrumentAppV1\InstrumentAppV1.csproj", "{533C2D83-5159-4923-B4C2-E16EF5EC18DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstrumentAppV2", "InstrumentAppV2\InstrumentAppV2.csproj", "{D79F500C-77E6-4D2F-9105-5BB90E9B8127}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,5 +15,9 @@ Global
 		{533C2D83-5159-4923-B4C2-E16EF5EC18DF}.Debug|x86.Build.0 = Debug|x86
 		{533C2D83-5159-4923-B4C2-E16EF5EC18DF}.Release|x86.ActiveCfg = Release|x86
 		{533C2D83-5159-4923-B4C2-E16EF5EC18DF}.Release|x86.Build.0 = Release|x86
+		{D79F500C-77E6-4D2F-9105-5BB90E9B8127}.Debug|x86.ActiveCfg = Debug|x86
+		{D79F500C-77E6-4D2F-9105-5BB90E9B8127}.Debug|x86.Build.0 = Debug|x86
+		{D79F500C-77E6-4D2F-9105-5BB90E9B8127}.Release|x86.ActiveCfg = Release|x86
+		{D79F500C-77E6-4D2F-9105-5BB90E9B8127}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal
