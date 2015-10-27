@@ -30,7 +30,6 @@ namespace InstrumentAppV2
 			Dictionary<string,object> otherProperties = otherSpec.getProperties();
 
 			foreach (KeyValuePair<string,object> kvotherProperties in otherProperties) {
-				// Verifico si yo hago match con las propiedades de otro instrumento
 				if (properties.ContainsKey (kvotherProperties.Key)) {
 					object propertyValue = properties[kvotherProperties.Key];
 					if(kvotherProperties.Value.ToString() != propertyValue.ToString()){
