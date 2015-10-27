@@ -2,7 +2,7 @@
 
 namespace InstrumentAppV2
 {
-	public enum Builder
+	public enum InstrumentType
 	{
 		GUITAR, BANJO, DOBRO, FIDDLE, BASS, MANDOLIN
 	};

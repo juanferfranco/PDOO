@@ -9,7 +9,7 @@ namespace InstrumentAppV2
 		private Dictionary<string,object> properties = null;
 
 		public InstrumentSpec(Dictionary<string,object> properties)	{
-			this.properties = properties;
+			this.properties = new Dictionary<string, object>(properties);
 		}
 
 		public object getProperty(string propertyName){
@@ -32,8 +32,8 @@ namespace InstrumentAppV2
 			foreach (KeyValuePair<string,object> kvotherProperties in otherProperties) {
 				// Verifico si yo hago match con las propiedades de otro instrumento
 				if (properties.ContainsKey (kvotherProperties.Key)) {
-					//if((kvotherProperties.Value as string) != (properties[kvotherProperties.Key] as string)){
-					if(kvotherProperties.Value != properties[kvotherProperties.Key]){
+					object propertyValue = properties[kvotherProperties.Key];
+					if(kvotherProperties.Value.ToString() != propertyValue.ToString()){
 						return false;
 					}
 				}
