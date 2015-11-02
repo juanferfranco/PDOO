@@ -6,7 +6,18 @@ namespace SimUDuckEx2
 	{
 		public static void Main (string[] args)
 		{
-			Console.WriteLine ("Hello World!");
+			Duck mallard = new MallardDuck ();
+			mallard.performQuack ();
+			mallard.performFly ();
+
+			Duck model = new ModelDuck ();
+			model.performFly ();
+			model.FlyBehavior = new FlyRocketPowered ();
+			model.performFly ();
+			Console.ReadKey ();
 		}
 	}
 }
+
+
+

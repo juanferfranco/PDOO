@@ -35,6 +35,17 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Duck.cs" />
+    <Compile Include="FlyNoWay.cs" />
+    <Compile Include="FlyWithWings.cs" />
+    <Compile Include="IFlyBehavior.cs" />
+    <Compile Include="IQuackBehavior.cs" />
+    <Compile Include="MallardDuck.cs" />
+    <Compile Include="MuteQuack.cs" />
+    <Compile Include="Quack.cs" />
+    <Compile Include="Squeak.cs" />
+    <Compile Include="ModelDuck.cs" />
+    <Compile Include="FlyRocketPowered.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
