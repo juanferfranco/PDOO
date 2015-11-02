@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace DoFactory.GangOfFour.Singleton.NETOptimized
+namespace Singleton
 {
 	/// <summary>
 	/// MainApp startup class for .NET optimized 
