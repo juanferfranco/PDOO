@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SimUDockEx1
+namespace SimUDuckEx1
 {
 	public abstract class Duck
 	{
