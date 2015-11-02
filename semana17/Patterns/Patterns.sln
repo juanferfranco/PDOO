@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{131BD014-BC43-4541-AD00-BF7F42B98430}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{EC989953-8B99-40F8-AC7E-9457A8202C55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,5 +15,9 @@ Global
 		{131BD014-BC43-4541-AD00-BF7F42B98430}.Debug|x86.Build.0 = Debug|x86
 		{131BD014-BC43-4541-AD00-BF7F42B98430}.Release|x86.ActiveCfg = Release|x86
 		{131BD014-BC43-4541-AD00-BF7F42B98430}.Release|x86.Build.0 = Release|x86
+		{EC989953-8B99-40F8-AC7E-9457A8202C55}.Debug|x86.ActiveCfg = Debug|x86
+		{EC989953-8B99-40F8-AC7E-9457A8202C55}.Debug|x86.Build.0 = Debug|x86
+		{EC989953-8B99-40F8-AC7E-9457A8202C55}.Release|x86.ActiveCfg = Release|x86
+		{EC989953-8B99-40F8-AC7E-9457A8202C55}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal
