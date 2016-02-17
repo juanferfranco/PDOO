@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotivacionGenerics", "Motiv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjercicioCar", "EjercicioCar\EjercicioCar.csproj", "{08E19277-3FB1-4B64-8E2D-303C66C996FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploInterfaces", "EjemploInterfaces\EjemploInterfaces.csproj", "{CFBCC20D-9CAD-4992-A5F2-1A818674F1E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{08E19277-3FB1-4B64-8E2D-303C66C996FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08E19277-3FB1-4B64-8E2D-303C66C996FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08E19277-3FB1-4B64-8E2D-303C66C996FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFBCC20D-9CAD-4992-A5F2-1A818674F1E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFBCC20D-9CAD-4992-A5F2-1A818674F1E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFBCC20D-9CAD-4992-A5F2-1A818674F1E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFBCC20D-9CAD-4992-A5F2-1A818674F1E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
