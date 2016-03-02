@@ -12,15 +12,16 @@ namespace DelegatesExample2
     {
         static void Main(string[] args)
         {
-            MathDelegate[] mathOperationArray = { Add, Subtract, Power };
+            MathDelegate[] mathOperationArray = { Add, Subtract, Power};
             int a = 5;
             int b = 7;
+            int result = 0;
             //int result;
             foreach (MathDelegate op in mathOperationArray)
             {
                 a = 5;
                 b = 7;
-                int result = op(a, b);
+                result = op(a, b);
                 Console.WriteLine("result: {0}", result);
             }
 
