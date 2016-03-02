@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesExample", "Delegat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesExample2", "DelegatesExample2\DelegatesExample2.csproj", "{D0D378AF-9E92-4024-B081-4303C32A8477}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateChaining", "DelegateChaining\DelegateChaining.csproj", "{3DA1056C-302D-473F-9057-FFBFCB8F311E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D0D378AF-9E92-4024-B081-4303C32A8477}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0D378AF-9E92-4024-B081-4303C32A8477}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0D378AF-9E92-4024-B081-4303C32A8477}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DA1056C-302D-473F-9057-FFBFCB8F311E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DA1056C-302D-473F-9057-FFBFCB8F311E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DA1056C-302D-473F-9057-FFBFCB8F311E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DA1056C-302D-473F-9057-FFBFCB8F311E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
