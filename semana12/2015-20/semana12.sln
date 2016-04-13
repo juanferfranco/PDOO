@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RickAppVersion1", "RickAppVersion1\RickAppVersion1.csproj", "{BA724B4C-8506-450F-A771-22F7CF2940A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RickMultipleGuitars", "RickMultipleGuitars\RickMultipleGuitars.csproj", "{D7759B8C-EBAA-46A2-BBB1-41B019760D4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RickAppEncapsulation", "RickAppEncapsulation\RickAppEncapsulation.csproj", "{E84F9FE4-E68D-4112-B850-4398A48EF2D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA724B4C-8506-450F-A771-22F7CF2940A5}.Debug|x86.ActiveCfg = Debug|x86
+		{BA724B4C-8506-450F-A771-22F7CF2940A5}.Debug|x86.Build.0 = Debug|x86
+		{BA724B4C-8506-450F-A771-22F7CF2940A5}.Release|x86.ActiveCfg = Release|x86
+		{BA724B4C-8506-450F-A771-22F7CF2940A5}.Release|x86.Build.0 = Release|x86
+		{D7759B8C-EBAA-46A2-BBB1-41B019760D4B}.Debug|x86.ActiveCfg = Debug|x86
+		{D7759B8C-EBAA-46A2-BBB1-41B019760D4B}.Debug|x86.Build.0 = Debug|x86
+		{D7759B8C-EBAA-46A2-BBB1-41B019760D4B}.Release|x86.ActiveCfg = Release|x86
+		{D7759B8C-EBAA-46A2-BBB1-41B019760D4B}.Release|x86.Build.0 = Release|x86
+		{E84F9FE4-E68D-4112-B850-4398A48EF2D3}.Debug|x86.ActiveCfg = Debug|x86
+		{E84F9FE4-E68D-4112-B850-4398A48EF2D3}.Debug|x86.Build.0 = Debug|x86
+		{E84F9FE4-E68D-4112-B850-4398A48EF2D3}.Release|x86.ActiveCfg = Release|x86
+		{E84F9FE4-E68D-4112-B850-4398A48EF2D3}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal
